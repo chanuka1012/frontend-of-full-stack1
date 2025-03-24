@@ -1,0 +1,26 @@
+/* Header Styling */
+.header {
+    background-color: #56021F;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+/* Navigation Links */
+.nav-link {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s, transform 0.2s;
+}
+
+/* Hover Effects */
+.nav-link:hover {
+    color: #FFD700; /* Gold color on hover */
+    transform: scale(1.1);
+    text-decoration: underline;
+}
