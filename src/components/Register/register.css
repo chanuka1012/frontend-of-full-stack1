@@ -1,0 +1,85 @@
+.buttonregister {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    background-color: blueviolet;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
+}
+
+.buttonregister:hover {
+    background-color: darkviolet;
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(138, 43, 226, 0.5);
+}
+
+.register1 {
+    margin-bottom: 15px;
+}
+
+.register1 label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.input1 {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 14px;
+    transition: border 0.3s;
+}
+
+.input1:focus {
+    border-color: blueviolet;
+    outline: none;
+}
+
+.registration-container {
+    background-image: url('/money_manager.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.box {
+    background: rgba(255, 255, 255, 0.85);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+.message {
+    margin-top: 15px;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.success {
+    color: rgb(176, 2, 86);
+    border: 1px solid rgb(109, 179, 211);
+}
+
+.error {
+    color: rgb(231, 103, 126);
+    border: 1px solid rgba(255, 12, 12, 0.681);
+}
