@@ -1,0 +1,80 @@
+/* Home Container */
+.home-container {
+  background-image: url('/money_manager.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Main Box */
+.box1 {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 20px 40px;
+  border-radius: 8px;
+  max-width: 450px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: #000;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  text-align: center;
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+
+/* Main Content */
+.main-content {
+  min-height: 60vh;
+  padding: 20px;
+}
+
+/* Button Container */
+.button-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+/* Button Styling */
+.home-button {
+  display: inline-block;
+  padding: 12px 25px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 8px;
+  text-align: center;
+  transition: all 0.3s ease;
+  width: 100%;
+  max-width: 250px;
+}
+
+/* Register Button */
+.register-button {
+  background-color: #188ce0;
+  color: white;
+}
+
+.register-button:hover {
+  background-color: #18dedb;
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(208, 45, 159, 0.5);
+}
+
+/* Login Button */
+.login-button {
+  background-color: #49b9e1;
+  color: white;
+}
+
+.login-button:hover {
+  background-color: #8acbd5;
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(224, 92, 48, 0.5);
+}
