@@ -1,0 +1,81 @@
+.expense-container {
+    background-image: url('/money_manager.jpg'); 
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Main Content Box */
+.content-box {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+}
+
+/* Dropdown Container */
+.dropdown-container {
+    margin-bottom: 20px;
+}
+
+.dropdown-container label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.dropdown-container select {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    transition: border 0.3s;
+}
+
+.dropdown-container select:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+/* Subcategory Buttons */
+.button-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.subcategory-button {
+    padding: 12px 24px;
+    border-radius: 8px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+/* Hover Effect */
+.subcategory-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.1);
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .content-box {
+        padding: 20px;
+    }
+    .subcategory-button {
+        width: 100%;
+    }
+}
